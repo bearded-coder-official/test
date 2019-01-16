@@ -22,3 +22,7 @@ $router->get('/api', function () use ($router) {
 $router->get('/posts', function () use ($router) {
     return response()->json(['1' => 'test']);
 });
+
+$router->get('/qwe', function () use ($router) {
+    return response()->json(['SUPER PUPER']);
+});
